@@ -11,6 +11,11 @@
       "path": "node_modules/cz-conventional-changelog"
     }
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/M-cheng-web/demo-commit.git"
