@@ -1,0 +1,27 @@
+{
+  "name": "demo-commit",
+  "version": "1.0.0",
+  "description": "commit规范的一些demo",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-cheng-web/demo-commit.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-cheng-web/demo-commit/issues"
+  },
+  "homepage": "https://github.com/M-cheng-web/demo-commit#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
